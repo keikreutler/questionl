@@ -1,2 +1,2 @@
 # questionl
-A personality rune.
+A personality rune by Terra Moods Inc.

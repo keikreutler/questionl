@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/assets/images/favicon_16x16.ico">
+
+    <!--[if IE]> <link rel="shortcut icon" href="assets/images/favicon_16x16.ico">[endif]--> 
+
+    <title>Questionl</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="style.css" rel="stylesheet">
+    <script type='text/javascript' src='https://cdn.firebase.com/js/client/1.0.15/firebase.js'></script>
+    <script type='text/javascript' src='questions.js'></script>
+
+    <link rel="icon" href="favicon.png" />
+
+
+  </head>
+
+  <body>
+
+        Questionl v0.2.1 Pre-alpha &copy; TerraMoods Inc.<br>
+        <span id="tagline">Building tomorrow on how you feel today.</span><br>
+        <span id="level">Level 1</span>
+        
+        <div id="interaction">
+            <span id="question">
+            How are you feeling today?
+            </span>
+            <p >
+                <textarea id="answer" type="text" rows="4" name="response"></textarea>
+                <br>
+                <br>
+                <input type="submit" onclick="submitted();">
+            </p>
+
+            <p id="results">
+                
+            </p>
+        </div>
+
+
+</body>
+
